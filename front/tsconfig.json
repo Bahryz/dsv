@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "esnext",  // Se você não precisa de compatibilidade com ES5, mude para 'esnext'
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",  // Geralmente 'esnext' é a melhor opção
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"  
+  },
+  "include": [
+    "src"
+  ]
+}
